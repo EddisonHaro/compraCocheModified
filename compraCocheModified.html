@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EVALUA SI PUEDO COMPRAR UN COCHE</title>
+
+    <h1>¿¿¿¿Me puedo comprar un Coche????¡¡Si eres mayor de edad!!!</h1>
+    <link rel="stylesheet" href="estilos.css">
+<script>
+
+//alert("ingresa cuanto dinero tienes para comprar l coche")
+
+valorCoche=60000;
+
+dineroCliente =prompt("ingresa el valor que tienes para el coche");
+edad=prompt("Ingrese su edad");
+
+if(dineroCliente >= valorCoche  && edad>17){
+    document.write("<h1>");
+    document.write("Felicidades el coche es tuyo")
+    document.write("</h1>");
+
+    
+}else if(dineroCliente < valorCoche  || edad<18){
+    document.write("<h2>");
+    document.write("no puedes comprar el coche")
+    document.write("</h2>");
+}
+
+
+
+ 
+
+</script>
+    
+</head>
+<body>
+    
+</body>
+</html>
